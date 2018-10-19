@@ -35,16 +35,16 @@ if($result) {
 }
 
 	?>
- <table class="table table-bordered">
-  <thead>
-    <tr>
-      <th scope="col">#</th>
-      <th scope="col">First</th>
-      <th scope="col">Last</th>
-      <th scope="col">Handle</th>
-    </tr>
-  </thead>
-  </table>
+ <table id="masini">
+			<th>ID</th>
+			<th>First Name</th>
+			<th>Last Name</th>
+			<th>Car Brand</th>
+			<th>Car Model</th>
+			<th>Manufactured</th>
+			<th>Color</th>
+			<th>Fuel</th>
+ </table>
 		
 	<?php
 		while($row = mysqli_fetch_array($query)){
