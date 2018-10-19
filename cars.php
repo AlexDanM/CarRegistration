@@ -34,16 +34,17 @@ if($result) {
 }
 
 	?>
- <table id="masini">
-			<th>ID</th>
-			<th>First Name</th>
-			<th>Last Name</th>
-			<th>Car Brand</th>
-			<th>Car Model</th>
-			<th>Manufactured</th>
-			<th>Color</th>
-			<th>Fuel</th>
- </table>
+		<table id = "masini">
+			<tr>
+				<th>ID</th>
+				<th>First Name</th>
+				<th>Last Name</th>
+				<th>Car Brand</th>
+				<th>Car Model</th>
+				<th>Manufactured</th>
+				<th>Color</th>
+				<th>Fuel</th>
+			</tr>
 		
 	<?php
 		while($row = mysqli_fetch_array($query)){
